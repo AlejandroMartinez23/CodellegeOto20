@@ -1,0 +1,21 @@
+body{
+    background-color: yellowgreen;
+}
+#cont{
+    background-color: yellowgreen;
+    padding-left: 350px;
+    padding-right: 300px;
+}
+p{
+    font-size: 30px;
+    color: rgb(19, 19, 100);
+}
+#datos{
+    background-color: yellow;
+    padding-left: 200px;
+    padding-right: 100;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid black;
+}
+
