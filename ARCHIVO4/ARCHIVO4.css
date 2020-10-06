@@ -1,0 +1,30 @@
+body{
+    background-color: dimgray;
+}
+#conte{
+    margin-left: 370px;
+    margin-top: 100px;
+}
+.tabla{
+    width: 700px;
+    border: 1px solid black;
+}
+.cont2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#head1{
+    background-color: yellow;
+}
+#head2{
+    background-color: rgb(133, 133, 40);
+}
+#head3{
+    background-color: rgb(85, 173, 231);
+}
+.dtos1{
+    background-color: whitesmoke;
+}
+.dtos2{
+    background-color: wheat;
+}
