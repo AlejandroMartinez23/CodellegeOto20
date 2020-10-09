@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(189, 232, 245);
+}
+p{
+    color: white;
+}
+a{
+    color: white;
+}
+#conte{
+    background-color: rgb(34, 38, 92);
+    box-shadow: 5px 8px 10px 7px rgb(65, 63, 63);
+    border-radius: 20px;
+    width: 35rem;
+    height: 20rem;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.iconos{
+    width: 25px;
+    height: 25px;
+}
+#imagen{
+    width: 180px;
+    height: 180px;
+}
+#boximg{
+    position: absolute;
+    margin-left: 90px;
+    padding-top: 35px;
+}
+#datos{
+    position: absolute;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+#name{
+    position: absolute;
+    margin-left: 60px;
+    padding-top: 200px;
+}
+#myname{
+    font-size: 25px;
+    font-family: monospace;
+}
+#job{
+    text-align: right;
+    font-size: 15;
+}
+#conte2{
+    background-color: rgb(34, 38, 92);
+    box-shadow: 5px 8px 10px 7px rgb(65, 63, 63);
+    border-radius: 20px;
+    width: 35rem;
+    height: 20rem;
+    margin-left: 20px;
+}
+#imagen2{
+    width: 250px;
+    height: 250px;
+}
+#boximg2{
+    margin-left: 27%;
+    padding-top: 35px;
+}
+.line{
+    background: orange;
+    position: absolute;
+}
+
+.horizontal{
+    width: 8rem;
+    height: 0.7rem;
+}
+
+.top{
+    top:8px;
+    left:18%;
+}
+
+.bottom{
+    bottom:329px;
+    left:18%;
+}
+
+.vertical{
+    height: 8rem;
+    width: 0.7rem;
+}
+
+.left{
+    top:69%;
+    left:28px;
+}
+
+.right{
+    left:42.79%;
+    top:69%;
+}
