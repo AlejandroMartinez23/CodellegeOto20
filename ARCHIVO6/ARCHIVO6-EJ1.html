@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Imprimir el numero mayor</title>
+    </head>
+    <body style="background-color: rgb(47, 192, 144);">
+    <form>
+<center>
+        <h1>Imprimir el numero mayor</h1>
+<br> 
+        Primer Numero: 
+<br>
+            <input type="number" id= "n1">    
+<br>
+        Segundo Numero: 
+<br>
+            <input type="number" id= "n2">
+<br>
+        <input type="button" value="CALCULAR" onclick="Calcular();">
+</center> 
+    </form>
+        <p id="Promedio"></p>
+    </body>
+        <script>
+            function Calcular() {       
+                var vr1 = document.getElementById('n1').value;
+                var vr2 = document.getElementById('n2').value;
+                    if(vr1>vr2){
+                        console.log("El numero mayor es: "+vr1)
+                    }
+                    if(vr1<vr2){
+                        console.log("El numero mayor es: "+vr2)
+                    }
+
+            }
+        </script>
+</html>

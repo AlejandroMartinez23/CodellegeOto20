@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULAR PROMEDIO</title>
+    </head>
+    <body style="background-color: rgb(47, 192, 144);">
+    <form>
+<center>
+        <h1>Calcular Promedio</h1>
+<br> 
+        Primer Numero: 
+<br>
+            <input type="number" id= "n1">    
+<br>
+        Segundo Numero: 
+<br>
+            <input type="number" id= "n2">
+<br>
+        Tercer Numero: 
+<br>
+            <input type="number" id= "n3">
+<br>
+        Cuarto Numero: 
+<br>
+            <input type="number" id= "n4">
+<br>
+        Quinto Numero: 
+<br>
+            <input type="number" id= "n5">
+<br>
+        <input type="button" value="CALCULAR" onclick="Calcular();">
+</center> 
+    </form>
+        <p id="Promedio"></p>
+    </body>
+        <script>
+            function Calcular() {       
+                var vr1 = document.getElementById('n1').value;
+                var vr2 = document.getElementById('n2').value;
+                var vr3 = document.getElementById('n3').value;
+                var vr4 = document.getElementById('n4').value;
+                var vr5 = document.getElementById('n5').value;
+                var p = (parseFloat(vr1)+parseFloat(vr2)+parseFloat(vr3)+parseFloat(vr4)+parseFloat(vr5))/5;
+                console.log("El promedio es: "+p)
+            }
+        </script>
+</html>
