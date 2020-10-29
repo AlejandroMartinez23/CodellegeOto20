@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EJERCICIO 5</title>
+    </head>    
+    <body style="background-color: rgb(4, 150, 187);">  
+<center>
+    <h1>Remover elementos duplicados</h1> 
+</center>
+    </body>
+        <script>
+            var lc=[1,1,2,5,8,8,6,3,3,3,12,1];
+            result=rd(lc);
+                function rd(num){
+                    var x,
+                        len=num.lenth,
+                        out=[],
+                        obj={};
+                    for (x=0;x<len;x++){
+                        obj[num[x]]=0;
+                        console.log(obj);
+                    }
+                    for(x in obj){
+                        out.push(x);
+                        console.log(out);
+                    }
+                    return out;
+                }
+                console.log(lc)
+                console.log(result)
+        </script>
+</html>

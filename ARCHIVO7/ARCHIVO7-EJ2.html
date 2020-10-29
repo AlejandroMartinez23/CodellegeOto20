@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EJERCICIO 2</title>
+    </head>    
+    <body style="background-color: rgb(4, 150, 187);">  
+<center>
+    <h1>Valor que mas se repite</h1> 
+</center>
+    </body>
+    <script>
+        var arr1=[3, 'a', 'a', 'a', 2, 3,"a", "a","a", 2, 4, "3" , "3"];
+        var mf = 1;
+        var m = 0;
+        var item;
+            for (var i=0; i < arr1.length; i++) { 
+                for (var j=i; j<arr1.length; j++){ 
+                    if (arr1[i] === arr1[j]){ 
+                        m++; 
+                    }
+                    if (mf < m){ 
+                        mf = m;
+                        item = arr1[i]; 
+                    }
+                }   
+                m=0; 
+            }
+            console.log("("+item+")" + " Se repite "+"("+ mf +")"+" veces") ;
+    </script>
+</html>
