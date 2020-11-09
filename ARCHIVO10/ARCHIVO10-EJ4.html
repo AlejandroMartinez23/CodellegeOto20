@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EJERCICIO 4</title>
+    </head>    
+    <body style="background-color: rgb(4, 150, 187);">  
+<center>
+    <h1 id="txt">Cambiar el contenido de una celda dentro de una tabla de HTML con JS</h1>
+<br>
+</center>
+    </body>
+        <script>
+            var dt=[" HOLA "," MUNDO ",]
+            document.write("<table>");
+                document.write("<tr>");
+                    document.write("<td>");
+                        document.write(dt[0])
+                        document.write(dt[1])  
+                    document.write("</td>")
+                document.write("</tr>")
+                document.write("<tr>");
+                    document.write("<td>");
+                        document.write(dt[1])
+                        document.write(dt[0])  
+                    document.write("</td>")
+                document.write("</tr>")
+            document.write("</table>")
+        </script>
+</html> 

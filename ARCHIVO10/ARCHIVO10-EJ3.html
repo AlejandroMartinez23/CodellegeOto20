@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EJERCICIO 3</title>
+    </head>    
+    <body style="background-color: rgb(4, 150, 187);">  
+<center>
+    <h1>Remueva valores de un elemento dropdown list de HTML</h1>
+<br>
+    <select id="tienda">
+        <option value="H-E-B">H-E-B</option>
+        <option value="Home depot">Home depot</option> 
+        <option value="Lowes">Lowes</option>  
+    </select>
+    <input type="button" value="ELIMINAR DE LA LISTA" onclick="dele()">
+</center>
+    </body>
+        <script>
+            function
+                dele(){
+                    var x=document.getElementById("tienda")
+                    x.remove(x.selectedIndex)
+                }
+        </script>
+</html>

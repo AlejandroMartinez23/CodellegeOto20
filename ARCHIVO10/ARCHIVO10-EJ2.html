@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EJERCICIO 2</title>
+    </head>    
+    <body style="background-color: rgb(4, 150, 187);">  
+<center>
+    <h1>Regrese e imprima los campos de nombre y apellido de un formulario</h1>
+<br>
+    <label for="nm">Ingresa tu nombre </label>
+    <input type="text" id="name">
+<br>
+    <label for="lnm">Ingresa tu apellido </label>
+    <input type="text" id="lname">
+<br>
+    <input type="button" value="SIGUIENTE" onclick="datos()">
+</center>
+    </body>
+        <script>
+            function datos(){
+                var nombre=String(document.getElementById("name").value);
+                var apellido=String(document.getElementById("lname").value); 
+                alert("Bienvenido de nuevo"+"\n"+"Nombre: "+nombre+"\n"+"Apellido: "+apellido)
+            }
+        </script>
+</html>
